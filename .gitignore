@@ -51,6 +51,14 @@ coverage.xml
 .pytest_cache/
 cover/
 
+# Ignore IntelliJ IDEA folder
+.idea/
+
+# Ignore all XML files except those in the config folder
+*.xml
+!config/*.xml
+
+
 # Translations
 *.mo
 *.pot
